@@ -1,0 +1,31 @@
+#h1{
+
+    font-size: large;
+
+}
+
+#TakeSnapshot:hover{
+
+    background-color: red;
+
+}
+
+Canvas{
+
+    border-style: dashed;
+
+    animation-name: example;
+
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+
+    from{box-shadow:5px 5px 100px red;}
+
+    to{box-shadow: 5px 5px 100px blue;}
+
+}
